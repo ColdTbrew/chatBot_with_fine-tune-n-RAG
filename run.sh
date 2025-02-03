@@ -1,0 +1,1 @@
+docker run -itd -p 8000:80 -v /Users/coldbrew/Documents/ollama_practice/app/:/usr/src/app/ --restart always --name fastapi-flyai fastapi-image
